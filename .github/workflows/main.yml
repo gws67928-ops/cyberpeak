@@ -28,7 +28,7 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          # submodules: recursive
           fetch-depth: 0
 
       - name: Setup Hugo Environment
