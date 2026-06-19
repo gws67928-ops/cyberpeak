@@ -1,0 +1,29 @@
+baseURL = "https://1823-34-106-82-241.ngrok-free.app/"
+languageCode = "en-us"
+title = "Cyberpeak"
+theme = "ananke"
+
+DefaultContentLanguage = "en-us"
+SectionPagesMenu = "main"
+
+# 导航菜单
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About Us"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact Us"
+    url = "/contact/"
+    weight = 3
+
+[params]
+    description = "Empowering Daily Life through Premium Electronics & Modern Home Essentials."
+    background_color_class = "bg-black-60" 
+    recent_posts_number = 0
+    featured_image = "featured-background.jpg"
